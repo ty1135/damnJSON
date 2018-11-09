@@ -1,0 +1,18 @@
+[
+    {
+        "version":1,
+        "id":"whatfrever",
+        "view":{
+            "type":"textfield",
+            "description":"文本框",
+            "props":{
+                "label":"权重",
+                "placeholder":"10"
+            }
+        },
+        "model":{
+            "editable":true,
+            "text":"8"
+        }
+    }
+]
