@@ -1,11 +1,12 @@
 {
     "id":"CONTAINER",
     "layout":"Boxlayout",
+    "view":{"type": "div"},
     "component":[
         {
             "version":1,
             "id":"whatfrever",
-            "view":{
+            "view":{"view":{"type": "div"},
                 "type":"textfield",
                 "description":"文本框",
                 "props":{
