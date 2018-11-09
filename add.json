@@ -22,7 +22,7 @@
                 },
                 "control":{
                     "click":{
-                        "endpoint" : "https://raw.githubusercontent.com/ty1135/damnJSON/master/add_response.json",
+                        "endpoint" : "get https://raw.githubusercontent.com/ty1135/damnJSON/master/add_response.json",
                         "payload":{
                            "trigger":{
                                "id": "BUTTON",
