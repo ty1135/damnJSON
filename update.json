@@ -1,6 +1,7 @@
 {
     "id":"CONTAINER",
     "layout":"Boxlayout",
+    "view":{"type": "div"},
     "component":[
         {
             "version":1,
