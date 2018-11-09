@@ -1,10 +1,16 @@
 {
     "id":"WHOLESTUFF",
     "layout":"Boxlayout",
+    "view":{
+        "type":"div"
+    },
     "component":[
         {
             "id":"CONTAINER",
             "layout":"Boxlayout",
+            "view":{
+                "type":"div"
+            },
             "component":[
 
             ]
@@ -22,32 +28,32 @@
                 },
                 "control":{
                     "click":{
-                        "endpoint" : "get https://raw.githubusercontent.com/ty1135/damnJSON/master/add_response.json",
+                        "endpoint":"get https://raw.githubusercontent.com/ty1135/damnJSON/master/add_response.json",
                         "payload":{
-                           "trigger":{
-                               "id": "BUTTON",
-                                "method": "click",
-                                "direction": "start"
+                            "trigger":{
+                                "id":"BUTTON",
+                                "method":"click",
+                                "direction":"start"
                             },
                             "data":[
-                               {
-                                 "id": "CONTAINER",
-                                 "value":{
-                                     "path": "component"
-                                   }
-                               }
+                                {
+                                    "id":"CONTAINER",
+                                    "value":{
+                                        "path":"component"
+                                    }
+                                }
                             ]
                         },
                         "response":{
-                            "status": null,
-                            "body": [
+                            "status":null,
+                            "body":[
                                 {
-                                    "id": "CONTAINER",
+                                    "id":"CONTAINER",
                                     "value":{
-                                        "path": "component"
+                                        "path":"component"
                                     }
                                 }
-                             ]
+                            ]
                         }
                     }
                 }
