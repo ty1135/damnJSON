@@ -6,7 +6,7 @@
         {
             "version":1,
             "id":"whatfrever",
-            "view":{"view":{"type": "div"},
+            "view":{
                 "type":"textfield",
                 "description":"文本框",
                 "props":{
