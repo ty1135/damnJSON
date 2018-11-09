@@ -22,39 +22,39 @@
                 "type":"button",
                 "props":{
                     "label":"按钮"
-                },
-                "model":{
-                    "disable":false
-                },
-                "control":{
-                    "click":{
-                        "endpoint":"get https://raw.githubusercontent.com/ty1135/damnJSON/master/add_response.json",
-                        "payload":{
-                            "trigger":{
-                                "id":"BUTTON",
-                                "method":"click",
-                                "direction":"start"
-                            },
-                            "data":[
-                                {
-                                    "id":"CONTAINER",
-                                    "value":{
-                                        "path":"component"
-                                    }
-                                }
-                            ]
+                }
+            },
+            "model":{
+                "disable":false
+            },
+            "control":{
+                "click":{
+                    "endpoint":"get https://raw.githubusercontent.com/ty1135/damnJSON/master/add_response.json",
+                    "payload":{
+                        "trigger":{
+                            "id":"BUTTON",
+                            "method":"click",
+                            "direction":"start"
                         },
-                        "response":{
-                            "status":null,
-                            "body":[
-                                {
-                                    "id":"CONTAINER",
-                                    "value":{
-                                        "path":"component"
-                                    }
+                        "data":[
+                            {
+                                "id":"CONTAINER",
+                                "value":{
+                                    "path":"component"
                                 }
-                            ]
-                        }
+                            }
+                        ]
+                    },
+                    "response":{
+                        "status":null,
+                        "body":[
+                            {
+                                "id":"CONTAINER",
+                                "value":{
+                                    "path":"component"
+                                }
+                            }
+                        ]
                     }
                 }
             }
