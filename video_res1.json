@@ -1,0 +1,46 @@
+
+[
+        {
+            "id":"a643a397-d944-44c1-9239-b03392ad680f",
+            "view":{
+                "type":"div"
+            },
+            "description":"伪",
+            "layout":{
+                "attributes":{
+                    "display":false,
+                    "flex_direction":"row",
+                    "justify_content":"center"
+                },
+                "name":"boxlayout"
+            },
+            "component":[
+                {
+                    "version":1,
+                    "id":"60cfdbd8-662c-4274-b745-a466fc85e056",
+                    "view":{
+                        "type":"textfield",
+                        "props":{
+                            "placeholder":"请输入"
+                        }
+                    },
+                    "model":{
+
+                    }
+                },
+                {
+                    "version":1,
+                    "id":"b7d3e7de-4866-4487-b90f-af671b099266",
+                    "view":{
+                        "type":"button",
+                        "props":{
+                            "icon":"url/to/del/icon"
+                        }
+                    },
+                    "model":{
+
+                    }
+                }
+            ]
+        }
+    ]
