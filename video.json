@@ -69,7 +69,7 @@
                                     },
                                     "control":{
                                         "click":{
-                                            "endpoint":"get domain/resource",
+                                            "endpoint":"get https://github.com/ty1135/damnJSON/blob/master/video_res1.json",
                                             "payload":{
                                                 "trigger":{
                                                     "id":"eb6d6bbc-92f2-4b92-8359-538b2fc4958b",
@@ -159,7 +159,7 @@
                     },
                     "control":{
                         "click":{
-                            "endpoint":"get domain/resource",
+                            "endpoint":"get https://github.com/ty1135/damnJSON/blob/master/video_res2.json",
                             "payload":{
                                 "trigger":{
                                     "id":"c52530bc-f606-49f7-abc2-893ecd165f2a",
@@ -274,7 +274,7 @@
                     },
                     "control":{
                         "click":{
-                            "endpoint":"get domain/resource",
+                            "endpoint":"get https://github.com/ty1135/damnJSON/blob/master/video_res3.json",
                             "payload":{
                                 "trigger":{
                                     "id":"09fb110f-6bf2-4360-a00a-30c163b4297e",
